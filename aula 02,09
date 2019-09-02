@@ -1,0 +1,21 @@
+// Example program
+#include <iostream>
+#include <string>
+#include <cstring>
+
+using namespace std;
+
+int main()
+{
+   int a;
+   
+   int *ptr = &a;
+    
+    a=3;
+    
+    cout << "Valor de a: " << a << endl;
+    *ptr = 5;
+    
+    cout << "Valor de a: " << a << endl;
+  return 0;
+}
